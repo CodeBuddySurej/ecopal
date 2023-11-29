@@ -1,0 +1,126 @@
+body{
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;    
+    font-family: 'Kanit', sans-serif;
+    background-color: #222;
+    font-size: 120%;
+  background-color: #ebfbfb;
+  text-align: center;
+  
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    transition: 0.2% ease-in-out;
+    color: white;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+
+.info{
+    justify-content: center;
+}
+/* Top Nav */
+
+
+a{
+    
+    color: white;
+    
+}
+.topnav {
+    background-color: #ade8f4;
+    overflow: hidden;
+    border-radius: 10px;;
+    margin-left: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.topnav a.split {
+    float: left;
+    background-color: #00B4D8;
+    color: black;
+  }
+
+.asy{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+
+
+/* Card */
+
+.card{
+    margin-top: 240px;
+}
+
+
+.flex{
+    margin-bottom: 70px;
+}
+
+.poll{
+    background-color: #ade8f4;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aphead {
+    text-decoration: underline;
+}
+
+.comp{
+    text-decoration: underline;
+}
+
+
+
+
+.aa{
+    margin-top: 20px;
+    color: black;
+  }
+
+  .aa a:hover{
+    opacity: 0.8;
+  }
+
+  .aa a{
+    color: black;
+  }

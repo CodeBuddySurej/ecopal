@@ -1,0 +1,188 @@
+body{
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;    
+    font-family: 'Kanit', sans-serif;
+    background-color: #222;
+    font-size: 120%;
+  background-color: #ebfbfb;
+  text-align: center;
+  
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    transition: 0.2% ease-in-out;
+    color: white;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+
+.info{
+    justify-content: center;
+}
+/* Top Nav */
+
+
+a{
+    
+    color: white;
+    
+}
+.topnav {
+    background-color: #ade8f4;
+    overflow: hidden;
+    border-radius: 10px;;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.topnav a.split {
+    float: left;
+    background-color: #00B4D8;
+    color: black;
+  }
+
+.asy{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+
+
+/* Card */
+
+.card{
+    margin-top: 250px;
+}
+
+
+.flex{
+    margin-bottom: 70px;
+}
+
+.poll{
+    background-color: #ade8f4;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.aphead {
+    text-decoration: underline;
+}
+
+.comp{
+    text-decoration: underline;
+}
+
+
+
+ /* Unique styles for the newsletter form */
+.city-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 25vh;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .city-form h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .city-form label {
+    display: block;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .city-form input[type="city"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .city-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00B4D8;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .city-form input[type="submit"]:hover {
+    background-color: #068da8;
+  }
+
+  .cityaa{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .aa{
+    margin-top: 50px;
+    color: black;
+  }
+
+  .aa a:hover{
+    opacity: 0.8;
+  }
+
+  .aa a{
+    color: black;
+  }
