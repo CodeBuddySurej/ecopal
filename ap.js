@@ -19,7 +19,7 @@ let airpollution = {
               ).then((response) => {
                 console.log(response.url);
               return response.json();
-              
+              referrerPolicy: "unsafe_url" 
             }).then((data) =>{
               const daa = data.list[0];
               const { aqi } = daa.main;
